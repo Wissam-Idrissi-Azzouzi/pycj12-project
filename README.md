@@ -135,15 +135,12 @@ One that is overcomplicated and no one can solve them? We done something similar
   </details>
 - `build.py` A build script which puts all the files from `frontend/` to `dist/` and replaces `[domain]` in specific files to the domain defined by the environment variable `CODECAPTCHA_DOMAIN` so the client can connect to the correct CAPTCHA servers specified in the static file. This is only needed for the demo server, but for consistency, the CAPTCHA server will also use it.
 
-## My contributions
-<details>
-    
+## My contributions    
 
 - Update CAPTCHA frontend to handle image
 - Convert the question generated to send image instead of text to client
 - Minor UI improvement on demo page
-</details>
-<details>
+
     
 ## Framework choice
 
