@@ -135,56 +135,16 @@ One that is overcomplicated and no one can solve them? We done something similar
   </details>
 - `build.py` A build script which puts all the files from `frontend/` to `dist/` and replaces `[domain]` in specific files to the domain defined by the environment variable `CODECAPTCHA_DOMAIN` so the client can connect to the correct CAPTCHA servers specified in the static file. This is only needed for the demo server, but for consistency, the CAPTCHA server will also use it.
 
-## Contribution list
+## My contribution specifically
 <details>
-    <summary>harshal6927 (@Harshal6927)</summary>
-
-- Demo server
-- CAPTCHA server
-- Demo page UI
-- Demo login system on the backend
-- Setup SQLite database for the servers
-</details>
-<details>
-    <summary>deleted.user0 (@i-am-unknown-81514525)</summary>
-
-- CAPTCHA UI
-- CAPTCHA frontend
-- Adding login system on the demo frontend
-- JWT generation and validation, Ed25519 key generation and handling
-- Question generator parser
-- Writing question set
-- Update image generation
-- Write the final `README.md`
-</details>
-<details>
-    <summary>ununenium817 (@Ununenium817)</summary>
-
-- Help writing the CAPTCHA server that was replaced
-- Writing question set
-- Construct system prompt and code to generate part of question set
-</details>
-<details>
-    <summary>wrybyte (@tayvona)</summary>
-
-- Minor UI improvement on demo page
-</details>
-<details>
-    <summary>fiwam (@fiwam)</summary>
+    <summary>Under an anonymous username </summary>
 
 - Update CAPTCHA frontend to handle image
 - Convert the question generated to send image instead of text to client
+- Minor UI improvement on demo page
 </details>
 <details>
-    <summary>dragonsenseiguy (@DragonSenseiGuy)</summary>
-
-- Attempt to write the CAPTCHA server that was replaced
-- Minor UI improvement for the CAPTCHA frame for usability
-- Wrote JWT Validator but was scrapped(due to issues).
-- Attempt to write the login system for demo server that didn't get merged.
-- Update various part of `README.md`
-</details>
-
+    
 ## Framework choice
 
 The project used a combination of Pyscript and Pyodide from the approved frameworks, with some HTML/js/css when necessary in the CAPTCHA files.
